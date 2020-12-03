@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex; /*everything we put will go in horizontaly */
+  flex-direction: column; /* allign everthing vertically*/
+  align-items: center; /*allign items in the center*/
+  justify-content: center; /*allign items in the center from vertically*/
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
